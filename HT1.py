@@ -1,0 +1,5 @@
+print('------Calculadora de indice de masa corporal-------')
+peso=float(input("Ingrese su peso en kg:"))
+estatura=float(input("Ingrese su estatura en m:"))
+IMC=peso/(estatura*estatura)
+print('Su indice de masa corporal es: ',"{:.2f}".format(IMC))
